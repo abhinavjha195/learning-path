@@ -1,0 +1,752 @@
+﻿<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+	<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+    <title>Learning Paths School - Outdoor Sports Adventure Website</title>
+    <!-- Bootstrap Core CSS -->
+    <link href="css/bootstrap.min.css" rel="stylesheet"> 
+	<link rel="stylesheet" href="dist/aos.css" />
+
+    <!-- Custom CSS -->
+    <link href="style.css" rel="stylesheet">
+	<link href="https://fonts.googleapis.com/css2?family=Poppins:wght@100;200;300;400;500;600;700;800;900&display=swap" rel="stylesheet">
+	<link href="https://fonts.googleapis.com/css2?family=Open+Sans:wght@300;400;500;600;700;800&display=swap" rel="stylesheet"> 
+	
+	<link rel="stylesheet" href="css/owl.carousel.min.css">
+    <link rel="stylesheet" href="css/owl.theme.default.min.css">
+	
+    <!-- Custom Fonts -->
+    <link href="font-awesome/css/fontawesome.min.css" rel="stylesheet" type="text/css">
+	<link rel="stylesheet" href="font-awesome/css/all.min.css">
+    <script src="https://code.jquery.com/jquery-latest.min.js" type="text/javascript"></script>
+
+	<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/magnific-popup.js/1.1.0/magnific-popup.css" />
+	<script src="https://cdnjs.cloudflare.com/ajax/libs/jquery.isotope/3.0.6/isotope.pkgd.js"></script>
+	<script src="https://cdnjs.cloudflare.com/ajax/libs/magnific-popup.js/1.1.0/jquery.magnific-popup.js"></script>
+   
+    <!--If you want to change #bootstrap-touch-slider id then you have to change Carousel-indicators and Carousel-Control  #bootstrap-touch-slider slide as well
+        Slide effect: slide, fade
+        Text Align: slide_style_center, slide_style_left, slide_style_right
+        Add Text Animation: https://daneden.github.io/animate.css/
+        -->
+
+
+    <!-- HTML5 Shim and Respond.js IE8 support of HTML5 elements and media queries -->
+    <!-- WARNING: Respond.js doesn't work if you view the page via file:// -->
+    <!--[if lt IE 9]>
+        <script src="https://oss.maxcdn.com/libs/html5shiv/3.7.0/html5shiv.js"></script>
+        <script src="https://oss.maxcdn.com/libs/respond.js/1.4.2/respond.min.js"></script>
+    <![endif]-->    
+	
+<script>
+jQuery(window).scroll(function() {
+    if (jQuery(this).scrollTop() > 250) {  
+        jQuery('.menu-head').addClass("sticky");
+    } else {
+        jQuery('.menu-head').removeClass("sticky");
+    }
+});
+
+jQuery(window).scroll(function() {
+    if (jQuery(this).scrollTop() > 20){  
+        jQuery('.back-to-top').addClass("scroll");
+    }
+    else{
+        jQuery('.back-to-top').removeClass("scroll");
+    }
+});
+</script>
+
+</head>
+<body data-aos-easing="ease-out-back" data-aos-duration="1000" data-aos-delay="0" >
+<header class="header" id="home">  
+  <section class="head-top">   
+    <div class="container">
+      <div class="row head-row">
+
+		<div class="col-sm-6 head-info-left">
+			<a class="navbar-brand" href="index.html"><img src="images/lps-new-logo.png" alt=""></a>
+		</div>
+      
+	    <div class="col-sm-6 head-info-right">
+		  <ul>
+            <li><a href="#"><i class="fa-solid fa-calendar-days"></i> Calendar</a></li>
+			<li><a href="#"><i class="fa-regular fa-user"></i> Parent Login</a></li>
+            <li><a href="#"><i class="fa-solid fa-phone"></i> Contact Us</a></li>
+			<li><a href="#"><i class="fa-solid fa-graduation-cap"></i> Admission Enquiry</a></li>
+          </ul>	           
+		  
+		  <!-- <div class="icon-top">
+            <a href="https://www.facebook.com/" target="_blank"><i class="fa-brands fa-facebook-f"></i></a>
+            <a href="https://www.youtube.com/" target="_blank"><i class="fa-brands fa-youtube"></i></a>
+            <a href="https://www.instagram.com/" target="_blank"><i class="fa-brands fa-instagram"></i></a>
+          </div>		            -->
+        </div>	
+                
+      </div><!--/ row -->
+    </div>
+  </section>
+  
+  <div class="menu-head">             
+    <div class="container">	  
+      
+	  <nav class="navbar navbar-expand-lg">
+	    <div class="container-fluid">
+			<a class="navbar-brand hidden" href="index.html"><img src="images/lps-new-logo.png" alt=""></a>
+		  <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation"><span class="navbar-toggler-icon"></span></button>
+			  <div class="collapse navbar-collapse" id="navbarSupportedContent">
+		    <ul class="navbar-nav">
+			  <li><a href="index.html">Home</a></li>
+			  <li class="sub-drop"><a href="about.html">About Us</a>
+				<ul class="sub-menu">
+					<li><a href="#">Welcome to LPS</a></li>
+					<li><a href="#">LPS Journey</a></li>
+					<li><a href="#">Vision & Mission</a></li>
+					<li><a href="#">Principal’s Welcome</a></li>
+					<li><a href="#">Partnerships</a></li>
+					<li><a href="#">Campus Experience</a></li>
+					<li><a href="#">Awards & Recognition</a></li>
+					<li><a href="#">Learning Frameworks</a></li>
+					<li><a href="#">Signature Events</a></li>
+					<li><a href="#">Student Council</a></li>
+					<li><a href="#">Information Desk</a></li>
+				  </ul>
+			</li>
+			  <li class="sub-drop"><a>Admissions</a>
+			    <ul class="sub-menu">
+			      <li><a href="#">Why LPS</a></li>
+			      <li><a href="#">Admissions Overview</a></li>
+			      <li><a href="#">Admission to Class XI</a></li>
+				  <li><a href="#">Student Services</a></li>
+				  <li><a href="#">Enquire Now</a></li>
+				  <li><a href="#">Testimonials</a></li>
+                </ul>
+			  </li>
+			  <li class="sub-drop"><a href="service.html">Pre-Primary</a>
+				<ul class="sub-menu">
+					<li><a href="#">Welcome to LPS Pre-Primary</a></li>
+					<li><a href="#">Assessments</a></li>
+					<li><a href="#">Trips & Excursions</a></li>
+					<li><a href="#">Events & Celebrations</a></li>
+					<li><a href="#">Co-Curricular & PE</a></li>
+					<li><a href="#">Student Life</a></li>
+					<li><a href="#">Learning Approach</a></li>
+				  </ul>
+			</li>
+			  <li class="sub-drop"><a href="career.html">Primary</a>
+				<ul class="sub-menu">
+					<li><a href="#">Welcome to LPS Primary</a></li>
+					<li><a href="#">Learning Approach</a></li>
+					<li><a href="#">Student Life</a></li>
+					<li><a href="#">Co-Curricular & Sports</a></li>
+					<li><a href="#">Events & Celebrations</a></li>
+					<li><a href="#">Assessments</a></li>
+					<li><a href="#">Trips & Excursions</a></li>
+					<li><a href="#">Student Leadership</a></li>
+					<li><a href="#">Inter House Activities</a></li>
+				  </ul>
+			</li>
+			  <li class="sub-drop"><a href="contact.html">Secondary</a>
+				<ul class="sub-menu">
+					<li><a href="#">Welcome to LPS Secondary</a></li>
+					<li><a href="#">Learning Approach</a></li>
+					<li><a href="#">Student Life</a></li>
+					<li><a href="#">Co-Curricular & Sports</a></li>
+					<li><a href="#">Events & Celebrations</a></li>
+					<li><a href="#">Assessments</a></li>
+					<li><a href="#">Trips & Excursions</a></li>
+					<li><a href="#">Student Leadership</a></li>
+					<li><a href="#">Inter House Activities</a></li>
+					<li><a href="#">Clubs</a></li>
+				  </ul>
+			</li>
+			  <li class="sub-drop"><a href="contact.html">XI & XII</a>
+				<ul class="sub-menu">
+					<li><a href="#">Welcome to LPS Senior Secondary</a></li>
+					<li><a href="#">Academic Framework</a></li>
+					<li><a href="#">Student Life & Activities</a></li>
+					<li><a href="#">Trips & Tours</a></li>
+					<li><a href="#">JA Company</a></li>
+					<li><a href="#">LPS Business Conclave</a></li>
+					<li><a href="#">Community Service</a></li>
+					<li><a href="#">Academic Results</a></li>
+					<li><a href="#">Career Readiness Programme</a></li>
+					<li><a href="#">Student Placements</a></li>
+				  </ul>
+			</li>
+			  <li class="sub-drop"><a href="contact.html">Connect</a>
+				<ul class="sub-menu">
+					<li><a href="#">News & Events</a></li>
+					<li><a href="#">Blogs</a></li>
+					<li><a href="#">Publications</a></li>
+					<li><a href="#">Alumni</a></li>
+					<li><a href="#">Resources</a></li>
+					<li><a href="#">Careers</a></li>
+					<li><a href="#">Contact Us</a></li>
+				  </ul>
+			</li>
+		    </ul>
+			
+			
+		  </div>
+	    </div>
+	  </nav>
+	    
+    </div><!--/ menu-head -->           
+  </div><!--/ container -->
+</header>
+
+<section class="banner" id="home">
+  <div id="carouselExampleCaptions" class="carousel slide">
+    
+	<div class="carousel-inner">
+      
+	  <div class="carousel-item active">
+	    <figure><img src="images/slide-1.jpg" alt="image"  class="slide-image"/></figure>
+		<div class="slide-text">
+		  <div class="slide-padd">
+		    <div class="title-ban"><span>Welcome To Learning Path School </span> PATH TO LEARNING STARTS HERE</div>
+		    <p></p>
+			<p><a href="" class="btn">Contact us</a></p>
+		  </div>
+		</div><!--/ slide-text -->
+	  </div>
+	  
+	  <div class="carousel-item">
+	    <figure><img src="images/slide-2.jpg" alt="image"  class="slide-image"/></figure>
+		<div class="slide-text">
+		  <div class="slide-padd">
+		    <div class="title-ban"><span>Welcome To Learning Path School</span> THE PATHWAY TO CURIOSITY AND DISCOVERY</div>
+		    <p> </p>
+			<p><a href="" class="btn">Contact us</a></p>
+		  </div>
+		</div><!--/ slide-text -->
+	  </div>
+
+	  <div class="carousel-item active">
+	    <figure><img src="images/slide-3.jpg" alt="image"  class="slide-image"/></figure>
+		<div class="slide-text">
+		  <div class="slide-padd">
+		    <div class="title-ban"><span>Welcome To Learning Path School</span>PATH TO LEARNING STARTS HERE</div>
+		    <p></p>
+			<p><a href="" class="btn">Contact us</a></p>
+		  </div>
+		</div><!--/ slide-text -->
+	  </div>
+	  
+	  <div class="carousel-item">
+	    <figure><img src="images/slide-4.jpg" alt="image"  class="slide-image"/></figure>
+		<div class="slide-text">
+		  <div class="slide-padd">
+		    <div class="title-ban"><span>Welcome To Learning Path School</span> THE PATHWAY TO CURIOSITY AND DISCOVERY</div>
+		    <p></p>
+			<p><a href="" class="btn">Contact us</a></p>
+		  </div>
+		</div><!--/ slide-text -->
+	  </div>
+    
+	</div><!--/ carousel-inner -->
+	
+	<button class="carousel-control-prev left" type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide="prev"><span class="carousel-control-prev-icon fa fa-angle-left" aria-hidden="true"></span><span class="visually-hidden">Previous</span></button>
+	
+	<button class="carousel-control-next right" type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide="next"><span class="carousel-control-next-icon fa fa-angle-right" aria-hidden="true"></span><span class="visually-hidden">Next</span></button>
+  </div> 
+  
+</section><!--/ banner -->
+
+<div class="promo-area">
+	<div class="container">
+		<div class="row">
+			<div class="col-sm-8 promo-area-left">
+				<div class="video-icon">
+					<a href=""><i class="fa-solid fa-play"></i></a>
+					<div class="box">
+						<span style="--i:1"></span>
+						<span style="--i:2"></span>
+						<span style="--i:3"></span>
+						<span style="--i:4"></span>
+
+					</div>
+				</div>
+				<div class="promo-info">
+					<h2>THE CAMPUS</h2>
+					<p>They say a picture is worth a thousand words. Take a tour of our campus in pictures that describe it best.</p>	
+				</div>
+			</div>
+			
+			
+			<div class="col-sm-4 promo-area-right">
+				<a href="" class="btn" >TAKE TOUR</a>
+			</div>
+		</div>
+	</div>
+</div>
+
+<section class="about-sec">
+  <div class="container">
+	
+	<div class="row"> 
+	  <div class="col-sm-6 about-left aos-init aos-animate" data-aos="fade-up" data-aos-duration="1000">
+	    <div class="about-padd">
+	      <h2><span>About Our School</span>Welcome to Learning Paths School</h2>
+		  <p>A place founded by a passionate team of Social Entrepreneurs who believe in the power of education. More than just a school, we are a community dedicated to shaping the future of our students. </p>
+		  <p>Located on a sprawling 3-acre campus, Learning Paths School (LPS) Mohali is renowned as one of the finest CBSE schools, offering high-quality education from Pre-Nursery to Class XII. With top-notch facilities, a comprehensive academic program, and a strong.</p>
+		<div class="icon">
+			<p><i class="fa-solid fa-trophy"></i> Path <br>To Success</p>
+			<p><i class="fa-solid fa-lightbulb"></i> Path<br> Of Learning</p>
+			<p><i class="fa-solid fa-graduation-cap"></i> Find <br>Your Own Path</p>
+		</div>
+		<a href="" class="btn">Read More</a>
+		</div><!--/ col-sm -->
+      </div><!--/ col-sm -->
+	  
+	  <div class="col-sm-6 about-right aos-init aos-animate" data-aos="fade-up" data-aos-duration="1000">
+	    <div class="about-img-grid">
+			<div class="col-sm-6 grid-one">
+				<div class="about-blog">
+					<div class="icon">
+						<i class="fa-solid fa-award"></i>
+						<h4><span>1.5k<i class="fa-solid fa-plus"></i></span>Awards Winner</h4>
+					</div>
+					<p>Lorem Ipsum is simply dummy text of the printing</p>
+				</div>
+				<img src="images/abt-1.jpg" alt="">
+			</div>
+			<div class="col-sm-6 grid-two"><img src="images/abt-2.jpg" alt=""></div>
+		</div>
+	  </div> 
+     
+    </div><!--/ row --> 
+  </div>
+</section>   
+
+<section class="services-sec">
+  <div class="container">
+    <div class="row ">           
+	  
+		<div class="col-sm-12 service-head">
+			<h2><span>Explore LPS</span></h2>
+		</div>
+	  
+	  <div class="col-sm-3 services-left">
+		<h3><span>OUR SERVICES</span>We make your child happy day after day</h3>
+		  <p>A place founded by a passionate team of Social Entrepreneurs who believe in the power of education. More than just a school, we are a community dedicated to shaping the future of our students. </p>
+
+	  </div>
+
+	  <div class="col-sm-9 services-right">
+		<div class="col-sm-4 service-col">
+			<a href="service.html"><div class="item aos-init aos-animate" data-aos="fade-up" data-aos-duration="1000">
+				<figure><img src="images/achivement.png" alt=""></figure>
+			  <div class="info">
+				<h4>Student Awards</h4>
+				<p>Fire extinguishers apply an agent that will cool burning heat, smother fuel or remove oxygen so the fire cannot continue to burn.</p>
+			  </div>
+			</div></a><!--/ item -->
+		  </div>
+			
+		  <div class="col-sm-4 service-col">
+			<a href="service.html"><div class="item aos-init aos-animate" data-aos="fade-up" data-aos-duration="1000">
+				<figure><img src="images/bus.png" alt=""></figure>
+			  <div class="info">
+				<h4>Transport</h4>
+				<p>A smoke detector is part of a building-wide smoke detection and warning system, usually used in office, industrial, health care etc.</p>
+			  </div>
+			</div></a><!--/ item -->
+		  </div>
+			
+		  <div class="col-sm-4 service-col">
+			<a href="service.html"><div class="item aos-init aos-animate" data-aos="fade-up" data-aos-duration="1000">
+				<figure><img src="images/career.png" alt=""></figure>
+			  <div class="info">
+				<h4>Careeer & Guidance Cell</h4>
+				<p>Having a fire detection system can significantly reduce damages and maximize fire control efforts fire control efforts.</p>
+			  </div>
+			</div></a><!--/ item -->
+		  </div>
+	  </div>
+				     
+    </div><!--/ row --> 
+  </div>
+</section><!--/ services-sec -->  
+
+
+
+<section class="gallery-sec">
+	<div class="container-fluid">
+		<div class="row">
+			<div class="col-sm-2 gallery-box item">
+				<a href="images/gal-1.jpg" class="fancylight popup-btn" data-fancybox-group="light"><i class="fa-solid fa-magnifying-glass"></i>
+				<img src="images/gal-1.jpg" alt="">
+			  </a>
+			</div>
+			<div class="col-sm-2 gallery-box item">
+				<a href="images/gal-2.jpg" class="fancylight popup-btn" data-fancybox-group="light"><i class="fa-solid fa-magnifying-glass"></i>
+				<img src="images/gal-2.jpg" alt=""></a>
+			</div>
+			<div class="col-sm-2 gallery-box item">
+				<a href="images/gal-3.jpg" class="fancylight popup-btn" data-fancybox-group="light"><i class="fa-solid fa-magnifying-glass"></i>
+				<img src="images/gal-3.jpg" alt=""></a>
+			</div>
+			<div class="col-sm-2 gallery-box item">
+				<a href="images/gal-4.jpg" class="fancylight popup-btn" data-fancybox-group="light"><i class="fa-solid fa-magnifying-glass"></i>
+				<img src="images/gal-4.jpg" alt=""></a>
+			</div>
+			<div class="col-sm-2 gallery-box item">
+				<a href="images/gal-5.jpg" class="fancylight popup-btn" data-fancybox-group="light"><i class="fa-solid fa-magnifying-glass"></i>
+				<img src="images/gal-5.jpg" alt=""></a>
+			</div>
+		</div>
+		<script>
+			// $('.portfolio-item').isotope({
+			//  	itemSelector: '.item',
+			//  	layoutMode: 'fitRows'
+			//  });
+			 $('.portfolio-menu ul li').click(function(){
+			   $('.portfolio-menu ul li').removeClass('active');
+			   $(this).addClass('active');
+			   
+			   var selector = $(this).attr('data-filter');
+			   $('.portfolio-item').isotope({
+				 filter:selector
+			   });
+			   return  false;
+			 });
+			 $(document).ready(function() {
+			 var popup_btn = $('.popup-btn');
+			 popup_btn.magnificPopup({
+			 type : 'image',
+			 gallery : {
+			   enabled : true
+			 }
+			 });
+			 });	  
+	  </script>
+	</div>
+	<div class="col-sm-12">
+		<div class="promo-area">
+			<div class="container">
+				<div class="row">
+					<div class="col-sm-8 promo-area-left">
+						<div class="video-icon">
+							<a href="#"><i class="fa-solid fa-images"></i></a>
+							<div class="box">
+								<span style="--i:1"></span>
+								<span style="--i:2"></span>
+								<span style="--i:3"></span>
+								<span style="--i:4"></span>
+		
+							</div>
+						</div>
+						<div class="promo-info">
+							<h2>PLAY & LEARN</h2>
+							<p>They say a picture is worth a thousand words. Take a tour of our campus in pictures that describe it best.</p>	
+						</div>
+					</div>
+					
+					
+					<div class="col-sm-4 promo-area-right">
+						<a href="" class="btn" >View Gallery</a>
+					</div>
+				</div>
+			</div>
+		</div>
+	</div>
+</section>
+
+<section class="client-speak">
+	<div class="container">
+	  <div class="row">
+		
+		<div class="col-sm-12 text-center">
+		  <h2><span>Testimonials feedback</span>knows About Our Student's Say</h2>
+		</div>
+		
+		<div class="col-sm-12 grid-left pad-0">
+		  <div class="owl-carousel owl-theme" id="owl-demo-1">
+		  
+			<div class="item">
+			  <iframe width="100%" height="280" src="https://www.youtube.com/embed/K7HdyTS8cRs?si=LWfS_R8MwCCcYvaB" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
+			  <div class="author"><h4>Sanya Goyal</h4></div>
+			</div><!--/ item -->
+			
+			<div class="item">
+			  <iframe width="100%" height="280" src="https://www.youtube.com/embed/Ri29lx1xBcU?si=TXGi8t-lmcm6fYYT" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
+			  <div class="author"><h4>Ms Navneet & Ms Ashi Singh</h4></div>
+			</div><!--/ item -->
+			
+			<div class="item">
+			  <iframe width="100%" height="280" src="https://www.youtube.com/embed/aap33GKJltI?si=OpQTqn24t7vGWqEB" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
+			  <div class="author"><h4>Rishita Ghosh</h4></div>
+			</div><!--/ item -->
+  
+			<div class="item">
+			  <iframe width="100%" height="280" src="https://www.youtube.com/embed/K7HdyTS8cRs?si=LWfS_R8MwCCcYvaB" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
+			  <div class="author"><h4>Sanya Goyal</h4></div>
+			</div><!--/ item -->
+			
+			<div class="item">
+			  <iframe width="100%" height="280" src="https://www.youtube.com/embed/Ri29lx1xBcU?si=TXGi8t-lmcm6fYYT" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
+			  <div class="author"><h4>Ms Navneet & Ms Ashi Singh</h4></div>
+			</div><!--/ item -->
+			
+			<div class="item">
+			  <iframe width="100%" height="280" src="https://www.youtube.com/embed/aap33GKJltI?si=OpQTqn24t7vGWqEB" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
+			  <div class="author"><h4>Rishita Ghosh</h4></div>
+			</div><!--/ item -->
+			
+		  </div>
+		</div><!--/ grid-left -->  
+			
+	  </div><!--/ row -->	
+	</div>
+  </section><!--/ client-speak  -->
+
+
+<section class="faq-wrap">
+  <div class="container">
+    <div class="row aos-init aos-animate" data-aos="fade-up" data-aos-duration="1000">
+        
+      <div class="col-sm-12 faq-head"> 
+		<h2>University Placements</h2>
+		</div>
+		<div class="col-sm-12 faq-box"> 
+			<div class="faq-img-box col-sm-2"><img src="images/logo-one.png" alt=""></div>
+			<div class="faq-img-box col-sm-2"><img src="images/logo-2.png" alt=""></div>
+			<div class="faq-img-box col-sm-2"><img src="images/logo-3.png" alt=""></div>
+			<div class="faq-img-box col-sm-2"><img src="images/logo-4.png" alt=""></div>
+			<div class="faq-img-box col-sm-2"><img src="images/logo-5.png" alt=""></div>
+			<div class="faq-img-box col-sm-2"><img src="images/logo-6.png" alt=""></div>
+			<div class="faq-img-box col-sm-2"><img src="images/logo-7.png" alt=""></div>
+			<div class="faq-img-box col-sm-2"><img src="images/logo-8.png" alt=""></div>
+			<div class="faq-img-box col-sm-2"><img src="images/logo-9.png" alt=""></div>
+			<div class="faq-img-box col-sm-2"><img src="images/logo-10.png" alt=""></div>
+			<a href="" class="btn">View More</a>
+      </div><!--/ left -->
+	  
+	  <div class="col-sm-6 right hidden">
+	    <figure><img src="images/faq-banner.jpg" alt=""></figure>
+	  </div><!--/ right -->
+      
+    </div>
+  </div>
+</section><!--/ faq-wrap -->  
+
+<section class="facebook-widget">
+	<div class="container-fluid">
+	  <div class="row">           
+	  
+		<div class="col-sm-12 text-center">
+		  <h2>What’s Happening at LPS</h2>
+		  
+		  <div id="flockler-embed-188fbd2b7be0bde6ea0906d639601ff0">    
+   <script src="https://plugins.flockler.com/embed/188f91ca45a068cba2a7885fa0f35418/188fbd2b7be0bde6ea0906d639601ff0" async></script>     
+  </div>
+		</div>
+		
+	  </div><!--/ row --> 
+	</div>
+  </section>
+
+<section class="whats-new-sec">
+	<div class="container">
+	  <div class="row aos-init aos-animate" data-aos="fade-up" data-aos-duration="1000">
+		  
+  
+		  <div class="col-sm-12 text-center mrb-30">
+			<div class="col-sm-12 whats-new-head mrb-30"><h2><span>What's New</span>News & Events</h2></div>
+		    
+		  </div>
+  
+		  
+			<div class="col-sm-4 wcu-coll aos-init" data-aos="fade-up" data-aos-duration="1000">
+			  <div class="info">
+				<figure><img src="images/Atal-tinker-fest-2019.jpeg" alt="Image"></figure>
+				<a href="#" class="btn"> read more</a>
+				<h4><span>6</span> September , 2023</h4>
+				<h3>Atal Tinker Fest 2019</h3>
+				<p>Be it history or looking ahead in technological advance, the love of science is something that should be embraced by all. </p>
+			  </div><!--/ info -->
+			</div><!--/ wcu-coll -->
+			
+			<div class="col-sm-4 wcu-coll aos-init" data-aos="fade-up" data-aos-duration="1000">
+			  <div class="info">
+				<figure><img src="images/Book-Launch.jpg" alt="Image"></figure>
+				<a href="#" class="btn"> read more</a>
+				<h4>September 6, 2023</h4>
+				<h3>Online Learning at Learning Paths</h3>
+				<p>As the prevalent Covid 19 pandemic continues to impact communities.</p>
+			  </div><!--/ info -->
+			</div><!--/ wcu-coll -->
+			
+			<div class="col-sm-4 wcu-coll aos-init" data-aos="fade-up" data-aos-duration="1000">
+			  <div class="info">
+				<figure><img src="images/inter-house.jpg" alt="Image"></figure>
+				<a href="#" class="btn"> read more</a>
+				<h4>September 6, 2023</h4>
+				<h3>Inter House Business Conclave</h3>
+				<p>The first edition of “Inter-House Business Conclave” was held at</p>
+			  </div><!--/ info -->
+			</div><!--/ wcu-coll -->
+			
+		  </div><!--/ row -->
+  
+		
+		<div class="col-sm-6 right hidden" data-aos="fade-up" data-aos-duration="1000">
+		  <figure><img src="images/img-01.jpg" alt=""></figure>
+		</div><!--/ right -->
+		
+	  </div>
+	</div>
+  </section>
+
+ 
+
+<footer class="footer">  
+	<div class="back-to-top"><a href="#Home" class="BackTo" id="back-to-top"><i class="fa fa-angle-double-up" aria-hidden="true"></i></a></div>
+ <script>
+	$(document).ready(function(){
+	  // Show or hide the button based on scroll position
+	  $(window).scroll(function(){
+		if ($(this).scrollTop() > 100) {
+		  $('#back-to-top').fadeIn();
+		} else {
+		  $('#back-to-top').fadeOut();
+		}
+	  });
+	  
+	  // Scroll to top when the button is clicked
+	  $('#back-to-top').click(function(){
+		$('html, body').animate({scrollTop : 0},800);
+		return false;
+	  });
+	});
+	</script>
+   <div class="container">
+   
+	 <div class="row ft-row">
+	   <div class="col-sm-3">
+		<div class="wg-1">
+			<h4>Ouick Links</h4>
+			<ul>
+			  <li><a href="index.html">Home</a></li>
+			  <li><a href="about.html">About Us</a></li>
+			  <li><a href="service.html">Service</a></li>
+			  <li><a href="career.html">Careers</a></li>
+			  <li><a href="contact.html">Contact Us</a></li>
+			</ul>
+		  </div><!--/ wg-1 -->
+	   </div><!--/ col-sm-3 -->
+	 
+
+		   <div class="col-sm-3">
+			 <div class="wg-1">
+			   <h4>Contact us</h4>		          	  		
+			   <address>
+				<i class="fa-solid fa-location-dot"></i>
+				 <div><p>Sec 67, Mohali, (Punjab) India, Pin-160062</p></div>
+			   </address>
+			   
+			   <address>
+				 <i class="fa fa-phone" aria-hidden="true"></i>
+				 <div><p><a href="tel:+91-0172-5134300">+91-0172-5134300</a></p></div>
+			   </address>
+			   
+			   <address>
+				 <i class="fa fa-envelope" aria-hidden="true"></i>
+				 <div><p><a href="mailto: contact@learningpaths.in">contact@learningpaths.in</a></p></div>
+			   </address>		       		  	 
+			 </div><!--/ wg-1 -->
+		   </div><!--/ col-sm-4 --> 
+		   
+		   <div class="col-sm-3">
+			 <div class="wg-1">
+			   <h4>School Timings</h4>		          	  		
+			   <p><strong>Opening Day:</strong><br> Monday - Friday: 8am to 2pm<br> Saturday - 10am to 2pm</p>
+				</p>
+			 </div><!--/ wg-1 -->
+		   </div><!--/ col-sm-4 --> 
+
+		   <div class="col-sm-3 footer-left">
+			<div class="wg-1">
+				<h4>Other Links</h4>
+			   <div class="icon-ft">
+				<a href="https://www.facebook.com/" target="_blank"><i class="fa-brands fa-facebook-f"></i></a>
+				<a href="https://www.youtube.com/" target="_blank"><i class="fa-brands fa-youtube"></i></a>
+				<a href="https://www.instagram.com/" target="_blank"><i class="fa-brands fa-instagram"></i></a>
+				<a href="https://www.twitter.com/" target="_blank"><i class="fa-brands fa-x-twitter"></i></a>
+			   </div>
+			 </div><!--/ wg-1 -->
+		   </div><!--/ col-sm-3 -->
+			
+		 </div><!-- row -->            
+	   </div><!-- footer-right -->
+	   
+	 </div><!-- row -->            
+   </div><!--/ container -->     
+   
+   <div class="ft-bottom">
+	 <div class="container">
+	   <div class="row">
+	   
+		 <div class="col-sm-12"><p class="copyright text-center">Copyright © 2024 © Learning Paths School, 2016 | All rights reserved.</p></div>
+		 
+	   </div><!--/ row -->
+	 </div>
+   </div><!--/ ft-bottom -->
+ </footer>
+ 
+
+
+<!-- Bootstrap Core JavaScript -->
+<script src="js/bootstrap.bundle.min.js"></script>
+<script src="js/owl.carousel.min.js"></script>
+<script src="dist/aos.js"></script>	
+<script>
+$('#owl-demo-1').owlCarousel({
+    loop:true,
+	autoplay:false,
+    autoplayHoverPause:true,
+	autoplayTimeout:3000,
+    margin:10,
+    nav:true,
+    responsive:{
+        0:{
+            items:1
+        },
+        600:{
+            items:2
+        },
+        1000:{
+            items:3
+        }
+    }
+}) 
+
+$('#owl-demo-2').owlCarousel({
+    loop:true,
+	autoplay:1000,
+    autoplayHoverPause:true,
+	autoplayTimeout:3000,
+    margin:10,
+    nav:true,
+    responsive:{
+        0:{
+            items:1
+        },
+        600:{
+            items:1
+        },
+        1000:{
+            items:1
+        }
+    }
+})  
+</script>
+		  
+</body>
+<script>
+  AOS.init();
+</script>
+</html>
